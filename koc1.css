@@ -8,7 +8,7 @@ body{
 
 #navbar{
     display: flex;
-    height: 20%;
+    height: 15%;
     background-color: #333;
     justify-content: space-between;
     top: 0;
@@ -70,8 +70,14 @@ video{
     object-fit: cover;
 }
 
+#uvod{
+    position: absolute;
+    z-index: 1000;
+    margin-top: 3%;
+}
+
 #naslov{
-    background-color: white;
+    background-color: rgb(255, 236, 187);
     text-align: center;
     margin-left: 25%;
     margin-right: 25%;
@@ -82,6 +88,8 @@ video{
     overflow: auto;
 }
 
+/* ugostiteljska mesta */
+
 #prvi-deo{
     background-color: rgb(255, 236, 187);
     text-align: center;
@@ -90,13 +98,13 @@ video{
 
 #predstava{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    align-items: flex-start;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     width: 100%;
 }
 
-#kartica{
+.kartica{
     max-width: 600px;
 }
 
@@ -106,8 +114,25 @@ video{
 
 .pekarac{
     width: 550px;
+    height: 370px;
 }
 
-.lovac{
+.vinarija{
     width: 550px;
+    height: 370px;
+}
+
+.dugme-poseta{
+    cursor: pointer;
+    width: 150px;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 7.5px;
+    background-color:burlywood;
+    border-width: 1px;
+}
+
+.dugme-poseta:hover{
+    background-color: rgb(211, 139, 44);
+    transition: 0.4s;
 }
