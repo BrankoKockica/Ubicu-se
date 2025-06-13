@@ -136,3 +136,61 @@ video{
     background-color: rgb(211, 139, 44);
     transition: 0.4s;
 }
+
+/* Zimnica */
+
+#container-zimnica{
+    display: flex;
+    width: 100%;
+}
+
+.logo-zimnice{
+    width: 30%;
+}
+
+.leva-strana-zimnica{
+    text-align: center;
+    width: 35%;
+    background-color: rgb(7, 174, 7);
+    background-color: azure;
+}
+
+.zimnica{
+    display: block;
+    width: 100%;
+}
+
+.zimnica2{
+    display: block;
+    width: 100%;
+}
+
+.zimnica3{
+    width: 100%;
+    height: 375px;
+}
+
+.sredina-zimnica{
+    text-align: center;
+    
+    height: 750px;
+    width: 30%;
+}
+
+.donji-div{
+    margin-top: 210px;
+}
+
+.desna-strana-zimnica{
+    width: 35%;
+}
+
+.zimnica4{
+    display: block;
+    width: 100%;
+}
+
+.zimnica5{
+    width: 100%;
+    height: 375px;
+}
